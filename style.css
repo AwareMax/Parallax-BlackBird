@@ -1,4 +1,6 @@
-
+* {
+    box-sizing:border-box;
+}
   body {
     font-family: 'Open Sans', sans-serif;
   }
@@ -780,3 +782,25 @@ font-family: 'Kaushan Script', cursive;
     opacity:1;
     transform:translateX(0px);
   }
+
+
+
+
+@media screen and (max-width: 992px) {
+    .our-offices {
+        display: none;
+    }
+    
+    section.content {
+        padding: 0 10px 0 35px !important;
+    }
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .navigation-bar ul li  {
+        line-height: normal;
+        
+    }
+}
